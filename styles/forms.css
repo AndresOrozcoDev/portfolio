@@ -1,0 +1,20 @@
+.ao-form {
+    margin-top: 0rem;
+}
+
+@media only screen and (max-width: 575px) {
+    .ao-form {
+        margin-top: 0.4rem; 
+    } 
+}
+
+.ao-form__control {
+    width: 100%;
+    padding: 0.2rem 0.5rem;
+}
+
+.ao-form__control::placeholder {
+    font-size: 0.8rem;
+    color: gray;
+}
+

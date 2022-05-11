@@ -1,0 +1,20 @@
+.ao-text__h2 {
+    font-size: 1.4rem;
+    color: white;
+}
+
+.ao-text__h4 {
+    font-size: 1.2rem;
+}
+
+.ao-text__paragrah {
+    font-size: 1rem;
+}
+
+.ao-text--none {
+    text-decoration: none;
+}
+
+.ao-text--noLink:hover {
+    color: white;
+}

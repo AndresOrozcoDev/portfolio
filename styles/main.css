@@ -1,0 +1,9 @@
+@import './forms.css';
+@import './typographic.css';
+@import './header.css';
+@import './footer.css';
+
+body {
+    position: relative;
+    min-height: 300vh;
+}
