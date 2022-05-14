@@ -3,3 +3,40 @@
     position: fixed;
     padding: 1rem 0rem;
 }
+
+.hamburger {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: none;
+}
+
+@media only screen and (max-width: 575px) {
+    .hamburger {
+        display: block;
+    } 
+}
+
+.hamburger .line {
+    display: block;
+    width: 33px;
+    height: 2px;
+    background-color: #ecf0f1;
+    margin-block: 10px;
+    border-radius: 4px;
+    transition: transform .5s;
+    opacity: 0.25s;
+}
+
+.hamburger.active .line:nth-child(1) {
+    transform: translateY(12px) rotate(45deg);
+}
+
+.hamburger.active .line:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active .line:nth-child(3) {
+    transform: translateY(-12px) rotate(-45deg);
+}

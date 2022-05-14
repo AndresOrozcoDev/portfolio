@@ -2,6 +2,8 @@
 @import './typographic.css';
 @import './header.css';
 @import './footer.css';
+@import './container.css';
+@import './icon.css';
 
 body {
     position: relative;

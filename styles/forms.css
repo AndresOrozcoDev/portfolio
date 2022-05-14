@@ -10,11 +10,14 @@
 
 .ao-form__control {
     width: 100%;
-    padding: 0.2rem 0.5rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    padding: 0.2rem 1.8rem;
+    font-size: 0.9rem;
 }
 
 .ao-form__control::placeholder {
-    font-size: 0.8rem;
-    color: gray;
+    font-size: 0.9rem;
+    color: #808080;
 }
 
