@@ -4,8 +4,9 @@
 @import './footer.css';
 @import './container.css';
 @import './icon.css';
+@import './card.css';
 
 body {
     position: relative;
-    min-height: 300vh;
+    font-family: "eurostile", sans-serif;
 }

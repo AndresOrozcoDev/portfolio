@@ -1,7 +1,12 @@
 .ao-header {
     background-color: black;
-    position: fixed;
     padding: 1rem 0rem;
+}
+
+@media only screen and (max-width: 575px) {
+    .ao-header {
+        height: auto;
+    } 
 }
 
 .hamburger {

@@ -1,6 +1,7 @@
 // Variables
 mybutton = document.getElementById("btnGoUp");
 hamburgerMenu = document.querySelector('.hamburger');
+inputSearch = document.getElementById("inputSearch");
 
 // Function for active Hamburguer Menu.
 const menuIsActive = () => { hamburgerMenu.classList.toggle('active') };
@@ -18,7 +19,14 @@ const topFunction = () => {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
+const search = (event) => {
+  if (event.key === "Enter") {
+    event.preventDefault();
+  }
+}
+
 // Call function
 hamburgerMenu.addEventListener('click', menuIsActive);
 window.onscroll = function() {scrollFunction()};
+inputSearch.addEventListener("keypress", search)
 

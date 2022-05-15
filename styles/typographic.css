@@ -1,14 +1,31 @@
 .ao-text__h2 {
     font-size: 1.4rem;
-    color: white;
+    color: #141c3a;
+    font-weight: 800;
+    word-break: break-word;
 }
 
 .ao-text__h4 {
     font-size: 1.2rem;
+    color: rgba(10, 10, 10, 0.9);
+    font-weight: 300;
+    line-height: 1.5;
 }
 
 .ao-text__paragrah {
     font-size: 1rem;
+}
+
+.ao-text--white {
+    color: white;
+}
+
+.ao-text--black {
+    color: black;
+}
+
+.ao-text--paddingTop {
+    padding-top: 1rem;
 }
 
 .ao-text--none {

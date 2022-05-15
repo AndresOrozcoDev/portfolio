@@ -1,3 +1,21 @@
 .ao-container--positionRelative {
     position: relative;
 }
+
+.ao-section {
+    padding: 4.5rem 1rem;
+}
+
+.ao-section--white {
+    background-color: white;
+}
+
+.ao-section--gray {
+    background-color: gray;
+}
+
+.ao-container--fullWidthCenter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
