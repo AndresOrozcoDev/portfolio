@@ -7,3 +7,7 @@
 .ao-footer__top {
   cursor: pointer;
 }
+
+.ao-footer__social {
+  width: 64px;
+}
