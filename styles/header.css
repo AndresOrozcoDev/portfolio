@@ -1,5 +1,5 @@
 .ao-header {
-    background-color: black;
+    background-color: white;
     padding: 1rem 0rem;
 }
 
@@ -27,7 +27,7 @@
     display: block;
     width: 33px;
     height: 2px;
-    background-color: #ecf0f1;
+    background-color: black;
     margin-block: 10px;
     border-radius: 4px;
     transition: transform .5s;

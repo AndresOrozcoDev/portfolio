@@ -1,7 +1,7 @@
 .ao-footer {
     position: fixed;
     bottom: 0.5rem;
-    right: 1rem;
+    right: 0rem;
 }
 
 .ao-footer__goUp {
@@ -14,16 +14,16 @@
     display: none;
     position: fixed;
     bottom: 1rem;
-    right: 1.5rem;
+    right: 1rem;
     z-index: 99;
     border: none;
     outline: none;
     background-color: #c3c3c3;
     color: white;
     cursor: pointer;
-    padding: 15px;
+    padding: 10px;
     border-radius: 10px;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
   
   .btnGoUp:hover {

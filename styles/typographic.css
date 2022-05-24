@@ -33,5 +33,9 @@
 }
 
 .ao-text--noLink:hover {
-    color: white;
+    color: black;
+}
+
+.ao-text--noLinkWhite:hover {
+    color: black;
 }

@@ -3,19 +3,24 @@
 }
 
 .ao-section {
-    padding: 4.5rem 1rem;
+    padding: 5rem 1rem;
+}
+
+.ao-section--paddingTop {
+    padding-top: 1rem;
 }
 
 .ao-section--white {
     background-color: white;
 }
 
-.ao-section--gray {
-    background-color: gray;
+.ao-section--purple {
+    background-color: #7510F7;
 }
 
 .ao-container--fullWidthCenter {
     width: 100%;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
