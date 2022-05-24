@@ -23,7 +23,7 @@ const topFunction = () => {
 const search = (event) => {
   if (event.key === "Enter") {
     event.preventDefault();
-    console.log(event);
+    console.log(event.target.value);
   }
 }
 

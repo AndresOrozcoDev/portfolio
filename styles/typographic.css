@@ -1,19 +1,19 @@
 .ao-text__h2 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color: #141c3a;
     font-weight: 800;
     word-break: break-word;
 }
 
 .ao-text__h4 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: rgba(10, 10, 10, 0.9);
     font-weight: 300;
     line-height: 1.5;
 }
 
 .ao-text__paragrah {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .ao-text--white {
