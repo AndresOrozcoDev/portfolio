@@ -1,3 +1,7 @@
+.ao-footer {
+  padding: 1.5rem 0rem;
+}
+
 .ao-footer__float {
     position: fixed;
     bottom: 1rem;
@@ -9,5 +13,33 @@
 }
 
 .ao-footer__social {
-  width: 64px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  margin: 0rem 1rem;
+}
+
+.ao-footer--whatsapp {
+  background-image: url('../assets/icons/icon-whatsapp-gray.png');
+}
+
+.ao-footer--whatsapp:hover {
+  background-image: url('../assets/icons/icon-whatsapp-green.png');
+}
+
+.ao-footer--linkedin {
+  background-image: url('../assets/icons/icon-linkedin-gray.png');
+}
+
+.ao-footer--linkedin:hover {
+  background-image: url('../assets/icons/icon-linkedin-blue.png');
+}
+
+.ao-footer--github {
+  background-image: url('../assets/icons/icon-github-gray.png');
+}
+
+.ao-footer--github:hover {
+  background-image: url('../assets/icons/icon-github-blue.png');
 }
