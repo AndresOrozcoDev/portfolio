@@ -6,6 +6,7 @@
 
 .ao-row__cards {
     margin: 0.7rem 0rem;
+    justify-content: center;
 }
 
 .ao-card {

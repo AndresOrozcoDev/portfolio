@@ -1,31 +1,9 @@
-.ao-footer {
-    position: fixed;
-    bottom: 0.5rem;
-    right: 0rem;
-}
-
-.ao-footer__goUp {
-    opacity: 0.9;
-    z-index: 1;
-    cursor: pointer;
-}
-
-.btnGoUp {
-    display: none;
+.ao-footer__float {
     position: fixed;
     bottom: 1rem;
-    right: 1rem;
-    z-index: 99;
-    border: none;
-    outline: none;
-    background-color: #c3c3c3;
-    color: white;
-    cursor: pointer;
-    padding: 10px;
-    border-radius: 50%;
-    font-size: 0.8rem;
-  }
-  
-  .btnGoUp:hover {
-    background-color: rgb(156, 156, 156);
-  }
+    right: 0.5rem;
+}
+
+.ao-footer__top {
+  cursor: pointer;
+}
