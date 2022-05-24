@@ -1,9 +1,26 @@
 .ao-card {
-    padding: 1.5rem 0.5rem;
+    padding: 1rem 0.5rem;
     text-align: center;
     margin: 0.5rem 0rem;
 }
 
 .ao-row__cards {
     margin: 0.7rem 0rem;
+}
+
+.ao-card {
+    background-color: black;
+    flex-direction: row;
+}
+
+.ao-card__img {
+    height: 100%;
+}
+
+.ao-star__full {
+    color: yellow;
+}
+
+.ao-star__empty {
+    color: gray;
 }
