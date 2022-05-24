@@ -15,6 +15,7 @@ const scrollFunction = () => {
 }
 
 const topFunction = () => {
+  event.preventDefault();
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
@@ -22,6 +23,7 @@ const topFunction = () => {
 const search = (event) => {
   if (event.key === "Enter") {
     event.preventDefault();
+    console.log(event);
   }
 }
 

@@ -14,16 +14,16 @@
     display: none;
     position: fixed;
     bottom: 1rem;
-    right: 0.5rem;
+    right: 1rem;
     z-index: 99;
     border: none;
     outline: none;
     background-color: #c3c3c3;
     color: white;
     cursor: pointer;
-    padding: 9px;
-    border-radius: 10px;
-    font-size: 0.7rem;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 0.8rem;
   }
   
   .btnGoUp:hover {
