@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="./assets/identity/favicon.png">
+    <!-- Google Font family Readex Pro -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Readex+Pro" rel="stylesheet">
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Import styles -->
@@ -31,7 +33,7 @@
           <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
             <form class="ao-form">
               <div class="ao-container--positionRelative">
-                <input type="search" id="inputSearch" class="ao-form__control" placeholder="Search word">
+                <input type="search" id="inputSearch" class="ao-form__control" placeholder="Search word" autocomplete="off">
                 <img src="./assets/icons/icon-search.png" alt="Search" class="ao-icon__left">
               </div>
             </form>
@@ -183,19 +185,22 @@
       </section>
     </main>
 
-    <footer class="ao-footer ao-section--black">
-      <div class="container ao-footer__static">
-        <div class="row justify-content-center">
-          <a class="ao-footer__social ao-footer--whatsapp" title="Whatsaap"></a>
-          <a class="ao-footer__social ao-footer--linkedin" title="Linkedin"></a>
-          <a class="ao-footer__social ao-footer--github" title="Github"></a>
+    <footer>
+      <div class="ao-footer ao-section--black">
+        <div class="container ao-footer__static">
+          <div class="row justify-content-center">
+            <a class="ao-footer__social ao-footer--whatsapp" title="Whatsaap"></a>
+            <a class="ao-footer__social ao-footer--linkedin" title="Linkedin"></a>
+            <a class="ao-footer__social ao-footer--github" title="Github"></a>
+          </div>
         </div>
-      </div>
-      <div class="ao-footer__float">
-        <img id="btnGoUp" class="ao-footer__top" src="./assets/icons/upload.png" alt="Go to up" title="Top" width="44" onclick="topFunction()">
+        <div class="ao-footer__float">
+          <img id="btnGoUp" class="ao-footer__top" src="./assets/icons/upload.png" alt="Go to up" title="Top" width="44" onclick="topFunction()">
+        </div>
       </div>
     </footer>
 
+    <!-- Import JS -->
     <script type="text/javascript" src="./main.js"></script>
 
     <!-- Popper and Bootstrap JS -->

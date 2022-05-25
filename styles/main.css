@@ -11,36 +11,28 @@ body {
     font-family: 'Readex Pro', sans-serif;
 }
 
-/* width */
-::-webkit-scrollbar {
-width: 10px;
+body::-webkit-scrollbar {
+    width: 10px;
 }
 
-/* Track */
-::-webkit-scrollbar-track {
-background: #f1f1f1; 
-border-radius: 10px;
+body::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 10px;
 }
 
-/* Handle */
-::-webkit-scrollbar-thumb {
-background: #888; 
-border-radius: 10px;
+body::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
 }
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-background: #555; 
+body::-webkit-scrollbar-thumb:hover {
+    background: #555; 
 }
 
-textarea:hover, 
-input:hover, 
-textarea:active, 
-input:active, 
-textarea:focus, 
-input:focus
-{
+ 
+input:hover, input:active, input:focus {
     outline:0px !important;
     -webkit-appearance:none;
     box-shadow: none !important;
+    caret-color: #7510F7;
 }
