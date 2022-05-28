@@ -20,12 +20,12 @@
   margin: 0rem 1rem;
 }
 
-.ao-footer--whatsapp {
-  background-image: url('../assets/icons/icon-whatsapp-gray.png');
+.ao-footer--mail {
+  background-image: url('../assets/icons/icon-email-gray.png');
 }
 
-.ao-footer--whatsapp:hover {
-  background-image: url('../assets/icons/icon-whatsapp-green.png');
+.ao-footer--mail:hover {
+  background-image: url('../assets/icons/icon-email-red.png');
 }
 
 .ao-footer--linkedin {
