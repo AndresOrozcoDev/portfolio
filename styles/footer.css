@@ -18,11 +18,11 @@
   width: 40px;
   height: 40px;
   margin: 0rem 1rem;
+  transition: transform .2s;
 }
 
 .ao-footer--mail {
   background-image: url('../assets/icons/icon-email-gray.png');
-  transition: transform .2s;
 }
 
 .ao-footer--mail:hover {
@@ -32,7 +32,6 @@
 
 .ao-footer--linkedin {
   background-image: url('../assets/icons/icon-linkedin-gray.png');
-  transition: transform .2s;
 }
 
 .ao-footer--linkedin:hover {
@@ -42,7 +41,6 @@
 
 .ao-footer--github {
   background-image: url('../assets/icons/icon-github-gray.png');
-  transition: transform .2s;
 }
 
 .ao-footer--github:hover {
