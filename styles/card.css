@@ -2,16 +2,19 @@
     padding: 1rem 0.5rem;
     text-align: center;
     margin: 0.5rem 0rem;
+    background-color: black;
+    flex-direction: row;
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+.ao-card:hover {
+    transform: scale(1.1);
 }
 
 .ao-row__cards {
     margin: 0.7rem 0rem;
     justify-content: center;
-}
-
-.ao-card {
-    background-color: black;
-    flex-direction: row;
 }
 
 .ao-card__img {

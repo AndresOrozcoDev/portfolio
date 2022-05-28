@@ -22,24 +22,30 @@
 
 .ao-footer--mail {
   background-image: url('../assets/icons/icon-email-gray.png');
+  transition: transform .2s;
 }
 
 .ao-footer--mail:hover {
   background-image: url('../assets/icons/icon-email-red.png');
+  transform: scale(1.1);
 }
 
 .ao-footer--linkedin {
   background-image: url('../assets/icons/icon-linkedin-gray.png');
+  transition: transform .2s;
 }
 
 .ao-footer--linkedin:hover {
   background-image: url('../assets/icons/icon-linkedin-blue.png');
+  transform: scale(1.1);
 }
 
 .ao-footer--github {
   background-image: url('../assets/icons/icon-github-gray.png');
+  transition: transform .2s;
 }
 
 .ao-footer--github:hover {
   background-image: url('../assets/icons/icon-github-blue.png');
+  transform: scale(1.1);
 }
